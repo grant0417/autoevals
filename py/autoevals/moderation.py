@@ -1,8 +1,7 @@
-from braintrust_core.score import Score
-
 from autoevals.llm import OpenAIScorer
 
 from .oai import arun_cached_request, run_cached_request
+from .score import Score
 
 REQUEST_TYPE = "moderation"
 

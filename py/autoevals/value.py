@@ -1,9 +1,9 @@
 import json
 from typing import Any
 
-from braintrust_core.score import Score
-
 from autoevals.partial import ScorerWithPartial
+
+from .score import Score
 
 
 class ExactMatch(ScorerWithPartial):

@@ -1,11 +1,11 @@
 import threading
 
-from braintrust_core.score import Score
 from Levenshtein import distance
 
 from autoevals.partial import ScorerWithPartial
 
 from .oai import arun_cached_request, run_cached_request
+from .score import Score
 
 
 class Levenshtein(ScorerWithPartial):

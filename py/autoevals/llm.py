@@ -7,11 +7,11 @@ from typing import Dict, List, Optional
 
 import chevron
 import yaml
-from braintrust_core.score import Score
 
 from autoevals.partial import ScorerWithPartial
 
 from .oai import arun_cached_request, run_cached_request
+from .score import Score
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 

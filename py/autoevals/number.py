@@ -1,6 +1,6 @@
-from braintrust_core.score import Score
-
 from autoevals.partial import ScorerWithPartial
+
+from .score import Score
 
 
 class NumericDiff(ScorerWithPartial):
